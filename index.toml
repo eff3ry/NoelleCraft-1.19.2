@@ -195,7 +195,7 @@ metafile = true
 
 [[files]]
 file = "mods/ctm.pw.toml"
-hash = "fc5f6ed8b94d805cc915c961b75afb8dbf8bd04cd7d0e2efaa1c58e6a2085aef"
+hash = "f879e0fa2471f4ac255848e8b0b264fb4546e0fde6357171764dd12cd7895880"
 metafile = true
 
 [[files]]
@@ -225,17 +225,17 @@ metafile = true
 
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
-hash = "8dd28ea7a337cd77aa036117acd28aa7d6f45aeb9c69ece2dde86c3710f15ce0"
+hash = "a061a6cbe247d3cefb6e53632aaccccac06706311d60b1b41df594a8b86420b4"
 metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "aac9d498124912bb65ca3d564732118072bb27fec5fbbfa5ea1884cd5a8f6de2"
+hash = "8756c16218b9144648af699de6bf181dbba9643cc58394363a56812e39647d3f"
 metafile = true
 
 [[files]]
 file = "mods/embeddiumplus.pw.toml"
-hash = "6a7477c5e6ddbdfaa79c83d2bb7f9a448040997566e94bd157933cce1a9f4a7d"
+hash = "d23423ffb8b054cf7adb36d1be0293aba6343738060717a57aa45bacab2554da"
 metafile = true
 
 [[files]]
@@ -250,17 +250,17 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "d42359be3bf3bdb65c5072f06d4f34e1ea9b40184af94f1631589d61da0a007a"
+hash = "81367f1a2e6c8f682949b6d0db19ae4bd3bb465634d4fd5f8baefb303c82fb27"
 metafile = true
 
 [[files]]
 file = "mods/entity-texture-features-fabric.pw.toml"
-hash = "3d8b8da8c1c77fec8c3ebab23b5328f02d6302b8e4d3ee0ab96953c23441fe87"
+hash = "ea423d90e9160182e3826f847400a5a29ea3e190222be5c55a5b359bfdfbb283"
 metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "2df773e7b7659f53640f79e1e2b2e1de0df20277dc61de90a1d12881116cdc49"
+hash = "30c94ab9f98e98a854c4c193d3d07d390e62de339145c7671db1c98b8863501a"
 metafile = true
 
 [[files]]
@@ -325,7 +325,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "595b09b28e86fa338e50020e1ea1633b2c904da857fe81ac2ee3eeafad7a2601"
+hash = "2544c40e0f72a955bb07ba849f4201325d53a8e0c570a852a317594c4a51783c"
 metafile = true
 
 [[files]]
@@ -435,7 +435,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
-hash = "8ca3c85baf83813fbc9d4121480fb1a7f49aec34e5b4fa09ae1f7384a626c1cb"
+hash = "cf2ce7c835133bed54fa516bd5c8999ca0ab5dc272d8b168c4043d5df7337690"
 metafile = true
 
 [[files]]
@@ -510,7 +510,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "ad5ea7db099e46fb75851c3ec91393256006c78e55eb4615ca7c764f1668e2e8"
+hash = "e7843e20e052f74f69cb82db6613b83ff2394f25541b1b501ae8838cab755ca4"
 metafile = true
 
 [[files]]

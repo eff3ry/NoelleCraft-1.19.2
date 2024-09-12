@@ -1,6 +1,6 @@
 name = "Sodium/Embeddium Dynamic Lights"
 filename = "dynamiclightsreforged-1.19.2_v1.4.0.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
