@@ -1,0 +1,13 @@
+name = "Samurai Dynasty"
+filename = "epicsamurai-0.0.17-1.19.2-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "63459b3500e9263ea6ffcb7f35c4d96ad8c3d4dc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4911051
+project-id = 848381

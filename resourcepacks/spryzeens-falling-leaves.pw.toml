@@ -1,0 +1,13 @@
+name = "Spryzeen's Falling leaves"
+filename = "§bFallingLeaves§8-[v1.9.1].zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a21efb8a3c2a53204c7183586d74bb2dcfa825a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4095345
+project-id = 591876

@@ -1,0 +1,13 @@
+name = "Cluttered"
+filename = "cluttered-2.1.1-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e13a9ee5dd5ca277db1aaa4c65ff579e230badf0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4729944
+project-id = 826308

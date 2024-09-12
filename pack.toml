@@ -1,0 +1,13 @@
+name = "Noelle Pack 1.19.2"
+author = "eff3ry, Nolliewee"
+version = "1.0.2"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "0dfe29a1db06b797fbc9055bea784aacbbcf8989d457ba816ac69a9a63538fb8"
+
+[versions]
+forge = "43.4.2"
+minecraft = "1.19.2"

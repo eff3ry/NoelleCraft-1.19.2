@@ -1,0 +1,13 @@
+name = "Farmer's Delight: Plus"
+filename = "FarmersDelightPlus-1.19.2-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZjUUZ0PX/versions/RoV1xbIP/FarmersDelightPlus-1.19.2-1.2.1.jar"
+hash-format = "sha512"
+hash = "2134b9db1c0d967553df63d8e5399f8f12cdb962bea1a7b75dd9ee79c3b8d3d3d6cf574685275b3e7330f3a5e370feb1255c44f9b7916ff2c09f1ac4c7784112"
+
+[update]
+[update.modrinth]
+mod-id = "ZjUUZ0PX"
+version = "RoV1xbIP"

@@ -1,0 +1,13 @@
+name = "Touhou Little Maid"
+filename = "touhoulittlemaid-1.19.2-release-1.1.12-hotfix.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "88370f0a0bb3d81c386f3d2af02bdafd249c0534"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5713318
+project-id = 355044

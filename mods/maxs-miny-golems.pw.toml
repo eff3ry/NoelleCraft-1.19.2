@@ -1,0 +1,13 @@
+name = "Max's Miny Golems"
+filename = "Max's Miny Golems.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "367daf9565aa5afaff925b7417602e23c79781fa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4406987
+project-id = 830006

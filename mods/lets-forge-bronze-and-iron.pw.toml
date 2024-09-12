@@ -1,0 +1,13 @@
+name = "Let's Forge Bronze And Iron(Ancient Greece & Rome Update)"
+filename = "Lets_Forge_BronzeAndIron_[1_19_2]_3_11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f9ef5b611dd4f515e1a900a0ea5e0dfc2bb3d244"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5179174
+project-id = 948847

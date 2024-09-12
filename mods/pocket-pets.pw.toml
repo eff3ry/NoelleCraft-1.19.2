@@ -1,0 +1,13 @@
+name = "Pocket Pets"
+filename = "Pocket Pets.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e93339df5df2728c9faf9a0cad66efe4c2557e8d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4511838
+project-id = 855932
