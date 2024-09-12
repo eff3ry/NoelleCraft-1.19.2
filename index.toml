@@ -169,6 +169,11 @@ hash = "4fcf5557f323b235051c77e36fb105392e3d8428fccf098fb9d0021c5a705f93"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "a94bec93c6e2f350d4bfd94d6f557fca51ef4358aa4a714e87816243537a6623"
+metafile = true
+
+[[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
 hash = "25b2eca5e2daab8114f81a6b0a64b85e80d252c84b75173829041919d32e02c6"
 metafile = true
@@ -314,11 +319,6 @@ hash = "613fb681f5e66df43964bca7b85309afc4c5ea698648412a76a5522d861e29f1"
 metafile = true
 
 [[files]]
-file = "mods/expanded-ecosphere.pw.toml"
-hash = "77f24c40229df2b9c4ea1b09dd2f08925dba42caadd10228cb12ba284755e709"
-metafile = true
-
-[[files]]
 file = "mods/explorify.pw.toml"
 hash = "0097517a0b26e602afe8ace322c549ae8e8c282e4ba93eee3598eccc937bce39"
 metafile = true
@@ -376,6 +376,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "ab7bb11199e592a43542ec0ca68c0536b91b5045e070a77525ae1593ca722b90"
+metafile = true
+
+[[files]]
+file = "mods/grappling-hook-mod.pw.toml"
+hash = "ca7d4d2ba868dc18cca73af3567b7df52b4ed2cdf8190e7acde8f3343747beb5"
 metafile = true
 
 [[files]]
@@ -619,6 +624,11 @@ hash = "1336857e4281effc5b92dd8586bb7551cdc646a77bfd142a81f69648fd1cd131"
 metafile = true
 
 [[files]]
+file = "mods/packing-tape.pw.toml"
+hash = "12907b17a899120e421b428057bb8f2bc328451b9e635a34c9400bf69fb84f43"
+metafile = true
+
+[[files]]
 file = "mods/pams-harvestcraft-2-crops.pw.toml"
 hash = "163fe70e260b40aca45d2aed419ffc703a6337c840da4cf514fa2768834626d0"
 metafile = true
@@ -669,6 +679,11 @@ hash = "72b65f1a4e3a8a785ef1eb94caec1c6d05e23e72af2832eb46efee2188bb7dc1"
 metafile = true
 
 [[files]]
+file = "mods/productivebees.pw.toml"
+hash = "2837d634f0cda64b0a88c6e7e0c6b4aad58094cd6bd84966bd617bf015b2368e"
+metafile = true
+
+[[files]]
 file = "mods/project-vibrant-journeys.pw.toml"
 hash = "ac2379cba73da81b6a9c989c789af078fea2faacf32737ae3de21d505a51abc4"
 metafile = true
@@ -691,6 +706,11 @@ metafile = true
 [[files]]
 file = "mods/refurbished-furniture.pw.toml"
 hash = "d8c12d3a4a075334b666ef4657c8814c8eed94555c56faf92ed3f7fa562935de"
+metafile = true
+
+[[files]]
+file = "mods/regions-unexplored.pw.toml"
+hash = "ecf093b7e1eea7c65c3590ccf3b5b8ae44d7098cb8d61e2e8db2bc2786dbeb91"
 metafile = true
 
 [[files]]
@@ -781,11 +801,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "354bbfa82fb4018eb6d6d4b9c5a4846161dcd073e85010c936d3d96e454ece5c"
-metafile = true
-
-[[files]]
-file = "mods/terralith.pw.toml"
-hash = "e459f168965ca78be829822f4093d36a0107209f4993c7743e33b2a6e8abb894"
 metafile = true
 
 [[files]]
@@ -901,11 +916,6 @@ metafile = true
 [[files]]
 file = "mods/whispering-spirits.pw.toml"
 hash = "c9a352a1b3439c491cf48f921b7be5cf66494019e94bbb98a3b9d467ccac5610"
-metafile = true
-
-[[files]]
-file = "mods/witch-mobility.pw.toml"
-hash = "632418df797e7b0227584209c599a9e823103e3f472413c5443a71aaeeee8d57"
 metafile = true
 
 [[files]]
