@@ -1,0 +1,13 @@
+name = "Butchercraft"
+filename = "butchercraft-2.3.17.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0c83fb51c80dc682d09e6fce3e8b7c26c2a3bc45"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5384489
+project-id = 265715

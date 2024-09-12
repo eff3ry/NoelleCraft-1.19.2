@@ -1,0 +1,13 @@
+name = "Simply TBH"
+filename = "SimplyTBHforge1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d36fa983f562c59a2cb875dc5fc3aeba882ec23c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4346582
+project-id = 811503

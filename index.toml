@@ -89,6 +89,11 @@ hash = "8b6d43a047ade5b9339fa4a6dceca63bddd1f9de3eaf61ae3d16cfdcf7de79db"
 metafile = true
 
 [[files]]
+file = "mods/butchercraft.pw.toml"
+hash = "6e5095f7eecde96775b3e9f07799445e00acfaca1bbf5a0ad7f56289646987a4"
+metafile = true
+
+[[files]]
 file = "mods/carry-on.pw.toml"
 hash = "cd0ea1a626697c69a958b5d91615f4b61f6e4f275b55b2471140281e22cc485e"
 metafile = true
@@ -591,6 +596,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "aa9411c69f0a0f561ff0901fc6dc315db8dcd5012902241e6fc37fa02d1d9143"
+metafile = true
+
+[[files]]
+file = "mods/simply-tbh.pw.toml"
+hash = "f75e17cba82f2ec7ceb1ca4d26010644655e968b2b486a00fd4c13123e53c472"
 metafile = true
 
 [[files]]
