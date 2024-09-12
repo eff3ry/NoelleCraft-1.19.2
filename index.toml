@@ -135,7 +135,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorful-hearts.pw.toml"
-hash = "df9d86d736d6f45869daa6bea195c17635bdacc6ed80a26113950c9932fe7152"
+hash = "342a4442151ed786581a8e1b0607b975f9a7291762a7f2c090652053d7642fbb"
 metafile = true
 
 [[files]]
@@ -205,7 +205,7 @@ metafile = true
 
 [[files]]
 file = "mods/distant-horizons.pw.toml"
-hash = "29b81140ab640e779c356456d4dc69ebaf9780bcbd67ced16c804821bec400c1"
+hash = "f3eb2e1b4a55517e70d8ee575ad6ea72ad373f37203036db76eb8eb65afe7c06"
 metafile = true
 
 [[files]]
