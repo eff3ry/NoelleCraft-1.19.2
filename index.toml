@@ -34,8 +34,28 @@ hash = "1be3c626f8c8e445e57444f2559dc590edafc75b6c8c18d4599703dbc614a7e8"
 metafile = true
 
 [[files]]
+file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
+hash = "cdc65d49eb4a1ebdffdab6eefa5c3ed90b1e32016a45b894a5cc431c109b7e3b"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2.pw.toml"
+hash = "ca5ab66e55fd02c0ec3a9234d90b5a0f81a42cebabc80ccadc4a2cfd6e806cf5"
+metafile = true
+
+[[files]]
+file = "mods/applied-mekanistics.pw.toml"
+hash = "3761680fb5aecd99a6ad070c4b8387157aab76962e90cf4f81aa864898acd87e"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "3bea0442d74ad9116aa556afd0b84b54ecfd9504af3dabd914c829728082a34c"
+metafile = true
+
+[[files]]
+file = "mods/ars-nouveau.pw.toml"
+hash = "964b286efbbea56b5e5b48ad0b40409a4431d1487392531678988c3a0cb95fb4"
 metafile = true
 
 [[files]]
@@ -134,6 +154,11 @@ hash = "a5f6c899990965a62c6236084eac0e1fc0cd93a5afb446cd4454f1ab62308e76"
 metafile = true
 
 [[files]]
+file = "mods/cofh-core.pw.toml"
+hash = "09796a48f3857c1f41280849c100baff40631035f64e79d494b2a0538a7676fb"
+metafile = true
+
+[[files]]
 file = "mods/colorful-hearts.pw.toml"
 hash = "342a4442151ed786581a8e1b0607b975f9a7291762a7f2c090652053d7642fbb"
 metafile = true
@@ -174,6 +199,11 @@ hash = "aac08d8b0d042ebde4467a37047ecb21a6fd8d457b66995d4059ddeafaf4554e"
 metafile = true
 
 [[files]]
+file = "mods/create-ore-excavation.pw.toml"
+hash = "8b14538177e132056111b1d6cf1692e440b3a3774c66f8dc4d9615658c94689e"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "b15e9854be3e8cae81cef8300d17a26208cbb2e8f594a1e8700756c0101538d7"
 metafile = true
@@ -199,8 +229,18 @@ hash = "f879e0fa2471f4ac255848e8b0b264fb4546e0fde6357171764dd12cd7895880"
 metafile = true
 
 [[files]]
+file = "mods/cucumber.pw.toml"
+hash = "b50e76e4789296894257615963298525b83d49041449ff85fa9b0b908b153bcd"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "5f25fc7780b589577a825f8e5f3063eda67c6057052f76054bd7620901a67ea6"
+metafile = true
+
+[[files]]
+file = "mods/cyclops-core.pw.toml"
+hash = "2c9f0dfd92f52b8da54d6b3596df51e0d86d63082efd8b42629e170b7599b2a5"
 metafile = true
 
 [[files]]
@@ -264,6 +304,11 @@ hash = "30c94ab9f98e98a854c4c193d3d07d390e62de339145c7671db1c98b8863501a"
 metafile = true
 
 [[files]]
+file = "mods/evilcraft.pw.toml"
+hash = "0e9526f4134c741e81e3489c852f1d93b9e9b08cefd4a83e4c4414e9a962527d"
+metafile = true
+
+[[files]]
 file = "mods/exotic-birds.pw.toml"
 hash = "613fb681f5e66df43964bca7b85309afc4c5ea698648412a76a5522d861e29f1"
 metafile = true
@@ -304,8 +349,18 @@ hash = "0c820f51223c9f36609b2ab9c2cfe84c9f8920baee03d27535470e41330b9a76"
 metafile = true
 
 [[files]]
+file = "mods/flux-networks.pw.toml"
+hash = "d3e5d8756716534280c0bd4c2caddab5691dc0aeb16a23b76634b108dfc7e291"
+metafile = true
+
+[[files]]
 file = "mods/framework.pw.toml"
 hash = "5da81758b1fee2158f7245ca9826f6cd415664095fab2091e54df2c64924f067"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "adfb1f8e1b8a358f69a750045fe4e21180b3350d48dc07295d80502265fb68c3"
 metafile = true
 
 [[files]]
@@ -326,6 +381,21 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "2544c40e0f72a955bb07ba849f4201325d53a8e0c570a852a317594c4a51783c"
+metafile = true
+
+[[files]]
+file = "mods/immersive-engineering.pw.toml"
+hash = "364cb2d5ea8d33e8643998f53390f207bce9e1aa7bb834ad938cc63d310edb4e"
+metafile = true
+
+[[files]]
+file = "mods/industrial-foregoing.pw.toml"
+hash = "86d4d0c1e7235f6d7adfcefb49c138bb14c1e1d28b3f22252075806d970e2d06"
+metafile = true
+
+[[files]]
+file = "mods/inventory-sorter.pw.toml"
+hash = "b278c5bbfd28feeb69a54f3bd9ad1693e77f348dc7b9727888d6334f94997bae"
 metafile = true
 
 [[files]]
@@ -409,6 +479,11 @@ hash = "5bdb68030b5251475a27b1643b5cfec1eaaedacd44be643f108128bd76ee1c80"
 metafile = true
 
 [[files]]
+file = "mods/macaws-doors.pw.toml"
+hash = "7657dc49fc61843fbc83c851a69273b673ef2b701de7d3316a2fa3f0b85310f6"
+metafile = true
+
+[[files]]
 file = "mods/macaws-fences-and-walls.pw.toml"
 hash = "3634ff122557beee85ee9fac007c141525f32ff0f072be7a8c393ed77c119c05"
 metafile = true
@@ -416,6 +491,11 @@ metafile = true
 [[files]]
 file = "mods/macaws-windows.pw.toml"
 hash = "82309118a82e38f57b50234079df9ff66ae52a56b686cdceb1757fbd3f636120"
+metafile = true
+
+[[files]]
+file = "mods/mantle.pw.toml"
+hash = "97caa51416c69475fb8b7ef5abb8fe136c3d13254589a5ddef6322b586b7b447"
 metafile = true
 
 [[files]]
@@ -436,6 +516,16 @@ metafile = true
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
 hash = "cf2ce7c835133bed54fa516bd5c8999ca0ab5dc272d8b168c4043d5df7337690"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-generators.pw.toml"
+hash = "0a6a0129d354bbf733d4adb7efd39c6646f790827d76ae3a2e25cc855bdecd4d"
+metafile = true
+
+[[files]]
+file = "mods/mekanism.pw.toml"
+hash = "36b3da73d8ce3dfaa5c9a5dae7db10df3ee25f0d32cff6e1cde5407c5e6f271f"
 metafile = true
 
 [[files]]
@@ -481,6 +571,16 @@ metafile = true
 [[files]]
 file = "mods/mowzies-mobs.pw.toml"
 hash = "62b59f0b182b381d1997629327ba2e6ef6196352ebb5ab775d51cfa6b3ee24ba"
+metafile = true
+
+[[files]]
+file = "mods/mystical-agradditions.pw.toml"
+hash = "c48eb472414158ab3ac3b562923aa93e8a5f7d0f2fe9ff2b05377d637078d73c"
+metafile = true
+
+[[files]]
+file = "mods/mystical-agriculture.pw.toml"
+hash = "35c8dbbcfd0cf1726ed5e5c21f1542f861970471f93f08c573118d4478d97d9e"
 metafile = true
 
 [[files]]
@@ -534,6 +634,11 @@ hash = "3756509ad06b33d670010545d935058a9ac83cd941a604446899828c1f561410"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "e0cbe5dbdbece52f9471e318cabec09569b95c35ed72e568b015e2d9c5d3c9dc"
+metafile = true
+
+[[files]]
 file = "mods/player-companions.pw.toml"
 hash = "02f4ad637eadd1c30d12a5a61885bbafd34ec360907a4d3fc3085084cc1c86b1"
 metafile = true
@@ -554,13 +659,33 @@ hash = "54354cd6d8be8506d56a928a311ac3ee7f88c46fcf9afe95c4a279ff519cad36"
 metafile = true
 
 [[files]]
+file = "mods/polymorphic-energistics.pw.toml"
+hash = "39a6d6abbb53c5495cfea298986998dd86eee72d3916bbd578c5a17387e7a411"
+metafile = true
+
+[[files]]
+file = "mods/powah-rearchitected.pw.toml"
+hash = "72b65f1a4e3a8a785ef1eb94caec1c6d05e23e72af2832eb46efee2188bb7dc1"
+metafile = true
+
+[[files]]
 file = "mods/project-vibrant-journeys.pw.toml"
 hash = "ac2379cba73da81b6a9c989c789af078fea2faacf32737ae3de21d505a51abc4"
 metafile = true
 
 [[files]]
+file = "mods/psychadelic-experience.pw.toml"
+hash = "e4f571e81eb8cee19e0faaffaa7d4a15aff82bfa7f390aeab90211c692787578"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "4792b5508f6583035d60a5d681d1f05bb52acef432fb47f132bcfb1b53d518f6"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage.pw.toml"
+hash = "cce83680c833e2deec6be88c37516d0e4fabd064841d4ca7a517bbd90b7b8a73"
 metafile = true
 
 [[files]]
@@ -671,6 +796,31 @@ metafile = true
 [[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "176eda94ad465f880e240ef29685dfd9b21aac18c1606c8d526b9dcad4a232f4"
+metafile = true
+
+[[files]]
+file = "mods/thermal-dynamics.pw.toml"
+hash = "046ac30bb218b0e300fbf9e3e817c386edb29ce761210842bd85c0293935fe49"
+metafile = true
+
+[[files]]
+file = "mods/thermal-expansion.pw.toml"
+hash = "1674bdf60e7e343ccdfb66489f8880912f68207ef4e8ab51fd814e40cef157ad"
+metafile = true
+
+[[files]]
+file = "mods/thermal-foundation.pw.toml"
+hash = "e620d8a97266e15bf3f2009ee60ef74c39ba6d20172026d90e1470c5e5929ce5"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-construct.pw.toml"
+hash = "580086d24333a68d6b23b508b887205129672d946dbf704dad0c8f4ef68efc5b"
+metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+hash = "668f38c3cd01dbc645d212e46057b64c957825c8f9d5629f58f9740e456a824f"
 metafile = true
 
 [[files]]
