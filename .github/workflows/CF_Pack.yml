@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: export pack as Curseforge pack
-        run: packwiz.exe cf export
+        run: ./packwiz.exe cf export
         
       - uses: actions/upload-artifact@v4 
         with:
