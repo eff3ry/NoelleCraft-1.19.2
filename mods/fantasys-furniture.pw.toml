@@ -1,0 +1,13 @@
+name = "Fantasy's Furniture"
+filename = "fantasyfurniture-1.19.2-6.7.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3a094d8a832e6a6ded9be5a89c7a6577a11b9477"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4183177
+project-id = 579564

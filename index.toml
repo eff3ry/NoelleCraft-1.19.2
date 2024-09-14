@@ -329,6 +329,11 @@ hash = "20a984816bd95bc61df2016982457dfd34e59426cf1f4844ba1035489ef80e86"
 metafile = true
 
 [[files]]
+file = "mods/fantasys-furniture.pw.toml"
+hash = "9393c4c757844d2c81dbce37a85b5b88be73fa7b281a70c17c620361d659f788"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight-plus.pw.toml"
 hash = "380e8d7ef493c122d081f4ed273194546865f295f1dabb9d4cc06fc765dd9ca8"
 metafile = true
@@ -701,11 +706,6 @@ metafile = true
 [[files]]
 file = "mods/refined-storage.pw.toml"
 hash = "cce83680c833e2deec6be88c37516d0e4fabd064841d4ca7a517bbd90b7b8a73"
-metafile = true
-
-[[files]]
-file = "mods/refurbished-furniture.pw.toml"
-hash = "d8c12d3a4a075334b666ef4657c8814c8eed94555c56faf92ed3f7fa562935de"
 metafile = true
 
 [[files]]

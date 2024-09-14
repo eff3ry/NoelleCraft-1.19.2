@@ -1,12 +1,12 @@
 name = "Noelle Pack 1.19.2"
 author = "eff3ry, Nolliewee"
-version = "1.0.5"
+version = "1.0.6"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2333ffd4c4c6b3bb4cf827836b52025323cb2ce320ad55d133a210f561183bcd"
+hash = "a9fb6b49ed082d2eac1599388fc83c6daef4a1b50c7eb2a28904317464ed436e"
 
 [versions]
 forge = "43.4.2"
