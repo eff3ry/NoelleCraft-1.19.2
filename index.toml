@@ -1,12 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/CF_Pack.yml"
+hash = "d66898bb4708e81b9b8afffdb77a28f314be2b2c1f99f9c8639f471db1747a98"
+
+[[files]]
 file = "config/entity_model_features.json"
 hash = "392a955315c034ca833d8163ac8d525eda212c3454308e6c5cf52e3f6acb9f44"
 
 [[files]]
 file = "config/entity_texture_features.json"
 hash = "77ca3059e73ab40c271013ec3719328cb1c71139387a1986dcc452ebee0a5400"
+
+[[files]]
+file = "config/rightclickharvest.toml"
+hash = "38a3aba955ce3cd10a0a98b275a6dae714ce9a157947b7d3edb0f0900e5817c4"
 
 [[files]]
 file = "mods/aether-delight.pw.toml"
@@ -64,6 +72,11 @@ hash = "a73afee71e2288d59eae918b593bc433485184b288a4616db1ece8cb257fb5d8"
 metafile = true
 
 [[files]]
+file = "mods/bad-mobs.pw.toml"
+hash = "9e9c73bdf284108852ccfef81ad0b4597f342c2104cc7bcdb409ecc0bfc3beaf"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "7b33ce740230efe79e8214a5204694e13b5af7d61e6f40bbffa097a637fd2789"
 metafile = true
@@ -71,6 +84,11 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "54ccab972b3d57293fdaca5fa5318e26798bb68de4aa0dea83b92f9cf361bd47"
+metafile = true
+
+[[files]]
+file = "mods/better-advancements.pw.toml"
+hash = "6d5097ecaf832199d5a8eb0d28bf7869134b54f93fd0999b7bdfe0129716c720"
 metafile = true
 
 [[files]]
@@ -159,6 +177,11 @@ hash = "09796a48f3857c1f41280849c100baff40631035f64e79d494b2a0538a7676fb"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+hash = "7ee5b611e896a052a9a8a43fd9ba7b369362e80d6dea90d83227dae1ef94548a"
+metafile = true
+
+[[files]]
 file = "mods/colorful-hearts.pw.toml"
 hash = "342a4442151ed786581a8e1b0607b975f9a7291762a7f2c090652053d7642fbb"
 metafile = true
@@ -186,6 +209,11 @@ metafile = true
 [[files]]
 file = "mods/corpse.pw.toml"
 hash = "3443848915caa7b8e784dc851de4bcc6cae34db4d4b49463e3181fc00b7eb4e2"
+metafile = true
+
+[[files]]
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "c98b92c96eb546872a0d203969ddba29a17f6ab0e57ff93081d81a138562e8b7"
 metafile = true
 
 [[files]]
@@ -264,13 +292,13 @@ hash = "8d0be258460eed2b155b26b134a80ded22265f2b39491eac359d02753673eb99"
 metafile = true
 
 [[files]]
-file = "mods/dungeon-and-taverns.pw.toml"
-hash = "e833aef4d63d393a196e6202b88243b1b066c7d0098977df2430cccb3d192a04"
+file = "mods/double-doors.pw.toml"
+hash = "39cfcbfbb3038804479137d86a2ea00e0aa48455956ff87febed525c7dca3af2"
 metafile = true
 
 [[files]]
-file = "mods/dynamiclights-reforged.pw.toml"
-hash = "a061a6cbe247d3cefb6e53632aaccccac06706311d60b1b41df594a8b86420b4"
+file = "mods/dungeon-and-taverns.pw.toml"
+hash = "e833aef4d63d393a196e6202b88243b1b066c7d0098977df2430cccb3d192a04"
 metafile = true
 
 [[files]]
@@ -359,11 +387,6 @@ hash = "d3e5d8756716534280c0bd4c2caddab5691dc0aeb16a23b76634b108dfc7e291"
 metafile = true
 
 [[files]]
-file = "mods/framework.pw.toml"
-hash = "5da81758b1fee2158f7245ca9826f6cd415664095fab2091e54df2c64924f067"
-metafile = true
-
-[[files]]
 file = "mods/ftb-essentials.pw.toml"
 hash = "adfb1f8e1b8a358f69a750045fe4e21180b3350d48dc07295d80502265fb68c3"
 metafile = true
@@ -416,6 +439,11 @@ metafile = true
 [[files]]
 file = "mods/iron-furnaces.pw.toml"
 hash = "5de9ee06c8a9c5fa058e944a305e65e398dd75953ae000b8743aa6aab9b894b6"
+metafile = true
+
+[[files]]
+file = "mods/jade-addons.pw.toml"
+hash = "2db057973d45d5b76ab789648a86517abeb62b359fed8092cf2216dd0f3c91dc"
 metafile = true
 
 [[files]]
@@ -644,6 +672,11 @@ hash = "a5af261cc4ab01e4f2d4e76c837ec3018d9ace1d1cfbc4672a17e094cbd2d3c9"
 metafile = true
 
 [[files]]
+file = "mods/pams-harvestcraft-2-food-extended.pw.toml"
+hash = "594e1004d6c58be783078614b7e88919eb40ebd4cd6ea8b9da2e8e9c0fb61d32"
+metafile = true
+
+[[files]]
 file = "mods/pams-harvestcraft-2-trees.pw.toml"
 hash = "3756509ad06b33d670010545d935058a9ac83cd941a604446899828c1f561410"
 metafile = true
@@ -691,6 +724,11 @@ metafile = true
 [[files]]
 file = "mods/project-vibrant-journeys.pw.toml"
 hash = "ac2379cba73da81b6a9c989c789af078fea2faacf32737ae3de21d505a51abc4"
+metafile = true
+
+[[files]]
+file = "mods/projecte.pw.toml"
+hash = "0b39367f30b20525c98a8b87431ea82502998d7c0fc00d224a2404354f4f18b7"
 metafile = true
 
 [[files]]
@@ -804,8 +842,8 @@ hash = "354bbfa82fb4018eb6d6d4b9c5a4846161dcd073e85010c936d3d96e454ece5c"
 metafile = true
 
 [[files]]
-file = "mods/the-knocker.pw.toml"
-hash = "f4682194fe637749e462df51900753b56f5b55a6d0d4d2480223b81b00999eac"
+file = "mods/the-one-who-watches.pw.toml"
+hash = "b2181c358b08ea433531f31ed9e58b696cf5f6bf33403aec55d03cea0bbc189a"
 metafile = true
 
 [[files]]
