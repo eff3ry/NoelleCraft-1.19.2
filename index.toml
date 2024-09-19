@@ -5,6 +5,10 @@ file = ".github/workflows/CF_Pack.yml"
 hash = "d66898bb4708e81b9b8afffdb77a28f314be2b2c1f99f9c8639f471db1747a98"
 
 [[files]]
+file = "config/bcc-common.toml"
+hash = "ca0cb4f27f2927edd9bb0f96599daea4ead487e13d025a4a99272f3a24f69e78"
+
+[[files]]
 file = "config/entity_model_features.json"
 hash = "392a955315c034ca833d8163ac8d525eda212c3454308e6c5cf52e3f6acb9f44"
 
@@ -24,6 +28,11 @@ metafile = true
 [[files]]
 file = "mods/aether.pw.toml"
 hash = "cd6762b917231c39da01962cf328a04286180bec42e15016701eb0e37ae6652a"
+metafile = true
+
+[[files]]
+file = "mods/ai-improvements.pw.toml"
+hash = "7625fd02a8edcfaf66ae149456ba29e237a4740b6f2540fd2886a0ecaca189b7"
 metafile = true
 
 [[files]]
@@ -94,6 +103,11 @@ metafile = true
 [[files]]
 file = "mods/better-combat-by-daedelus.pw.toml"
 hash = "a88250ec382bd3aa224e11b803500a56d84b2c103f56834ef7ecb6eab938c24f"
+metafile = true
+
+[[files]]
+file = "mods/better-compatibility-checker.pw.toml"
+hash = "d6e632815eec579cf9763057f706a5a4eae2dd9237601e63b4c32bc57ac90338"
 metafile = true
 
 [[files]]
@@ -267,6 +281,11 @@ hash = "b50e76e4789296894257615963298525b83d49041449ff85fa9b0b908b153bcd"
 metafile = true
 
 [[files]]
+file = "mods/cupboard.pw.toml"
+hash = "a91da14e84c3e8d4f225cad1cb2932cd026fb74fb5ffe85f714ba2d6cfafb447"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "5f25fc7780b589577a825f8e5f3063eda67c6057052f76054bd7620901a67ea6"
 metafile = true
@@ -322,6 +341,11 @@ hash = "a5e2662048acc97d31b42cac15365306be2a00de7939cf06fd180f8120916853"
 metafile = true
 
 [[files]]
+file = "mods/entity-collision-fps-fix.pw.toml"
+hash = "be7e571d96df4be059d97ac435ac4fe4c180ca5d084b62e2e25343faae4ec238"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "81367f1a2e6c8f682949b6d0db19ae4bd3bb465634d4fd5f8baefb303c82fb27"
 metafile = true
@@ -372,6 +396,21 @@ hash = "2f0d30f69784a97558a03cec6e647be036bda30602dde06b82df78cd4ef464ee"
 metafile = true
 
 [[files]]
+file = "mods/fast-async-world-save-forge-fabric.pw.toml"
+hash = "8ad286b9226ff8b9b0d516d2d85ae2cf30629674c9aca3929c1dc3e949caab0c"
+metafile = true
+
+[[files]]
+file = "mods/fast-leaf-decay.pw.toml"
+hash = "da09edd338fa641d7eee1b96ecc2cc5e6dc9d299c68da33741b3b81854a551ef"
+metafile = true
+
+[[files]]
+file = "mods/fastsuite.pw.toml"
+hash = "6ec4fcec4795f75ffdb7333316b4a40acb97bd4e5560d0ea437d477358b10d87"
+metafile = true
+
+[[files]]
 file = "mods/female-gender-forge.pw.toml"
 hash = "ad86f8adf32ba96db895c5dbd59305b7ce21cb22a5ed4e78feb1bd4368faf509"
 metafile = true
@@ -382,8 +421,18 @@ hash = "0c820f51223c9f36609b2ab9c2cfe84c9f8920baee03d27535470e41330b9a76"
 metafile = true
 
 [[files]]
+file = "mods/fix-gpu-memory-leak.pw.toml"
+hash = "72dc477328b0263a8d61f1a2d7032b8b3730aa4de3a365cc3e69ed68cbf7234e"
+metafile = true
+
+[[files]]
 file = "mods/flux-networks.pw.toml"
 hash = "d3e5d8756716534280c0bd4c2caddab5691dc0aeb16a23b76634b108dfc7e291"
+metafile = true
+
+[[files]]
+file = "mods/forgetmechunk-forge.pw.toml"
+hash = "a21c0153a7d21620095e7565fcc5d4b34866b6a9f9b8ed7fa024b2a27138d15f"
 metafile = true
 
 [[files]]
@@ -457,11 +506,6 @@ hash = "1f3c6ed9a236c945ad04fe0b85079abbdb2769a922be982217b8972221adb412"
 metafile = true
 
 [[files]]
-file = "mods/just-enough-professions-jep.pw.toml"
-hash = "413806f003b9c9b62f701d97aaf128534618d25c3fda27505e1543b44fe20f79"
-metafile = true
-
-[[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "a8fe4aa0797f168eaea200788d58958e5c9a4b2830623471b8f338073e8d649e"
 metafile = true
@@ -487,6 +531,11 @@ hash = "56b130b6b7462bcff9085d43e7d53a1d5c5f0ee1744f63c4faee093538bc3825"
 metafile = true
 
 [[files]]
+file = "mods/lazy-dfu-forge.pw.toml"
+hash = "4197e21b90ffc991b42fb07a8e2c55824ba30f66185688a1e63ddbbecd10937e"
+metafile = true
+
+[[files]]
 file = "mods/lets-do-bakery.pw.toml"
 hash = "dbb4e42f799214303a54bbb366188a4f4bbc5762fee3bb47f9b91aeae691e0ed"
 metafile = true
@@ -504,6 +553,11 @@ metafile = true
 [[files]]
 file = "mods/lets-forge-bronze-and-iron.pw.toml"
 hash = "b60f334348bedbd6ade6687599b8f1ed6265ec381a7e31bdba1b169288d9ab00"
+metafile = true
+
+[[files]]
+file = "mods/lightspeedmod.pw.toml"
+hash = "8bcd18e098706a797aee9ab5ef20c526d3431a11f15e2f66f8389e16d62c3b0e"
 metafile = true
 
 [[files]]
@@ -587,6 +641,11 @@ hash = "7370a676dd0e548786b684f637f304db07b6fcab9b33a8e6920b2e5347eba464"
 metafile = true
 
 [[files]]
+file = "mods/mob-despawn-timers.pw.toml"
+hash = "fcf2747cc79644ab385eac825db1cfcc9f0feddbf9038a9dfb46dc07acc1e56f"
+metafile = true
+
+[[files]]
 file = "mods/mob-lassos.pw.toml"
 hash = "a6c8db9d88523ec05b20f1901d140e25ecb28bc4e8753d2561390bde55349a7a"
 metafile = true
@@ -629,6 +688,16 @@ metafile = true
 [[files]]
 file = "mods/neighborly.pw.toml"
 hash = "36df0a50b6d4caae958c97eeff0a93790deffefabc9b75db264f11ad52595494"
+metafile = true
+
+[[files]]
+file = "mods/neruina.pw.toml"
+hash = "350cbcdae21f4fdb7d36a42fe75623167cd3f05ea5cc73864ec59ad87b92b1d2"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "ebe4f9026b88b5e526c15cfb5a00f78b3c7538970df343803fbcdf36ede37534"
 metafile = true
 
 [[files]]
@@ -684,6 +753,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "e0cbe5dbdbece52f9471e318cabec09569b95c35ed72e568b015e2d9c5d3c9dc"
+metafile = true
+
+[[files]]
+file = "mods/placebo.pw.toml"
+hash = "eb6b168caf4f8b9f3e501e97caaa61d207ab83d6328ce2f4960c4003eca73e90"
 metafile = true
 
 [[files]]
@@ -772,6 +846,11 @@ hash = "95a64bc7da853549d88397dba7026fd4366cadff0b74a7ab5ec7cb388d74cb55"
 metafile = true
 
 [[files]]
+file = "mods/saturn.pw.toml"
+hash = "9ee4f8587b73ee7fba1f4e6a1a0bc1fafc4d780b803fc56361240eed18b3d107"
+metafile = true
+
+[[files]]
 file = "mods/scuba-gear.pw.toml"
 hash = "7d66190244f69515e64785e9e0ee542e94f470da29e62c08aa275262f34b8d4a"
 metafile = true
@@ -779,6 +858,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "aa9411c69f0a0f561ff0901fc6dc315db8dcd5012902241e6fc37fa02d1d9143"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "ba259d74b464c0f149f4bbd055d3b62e131b346113c1be05500db55f29e08bb9"
 metafile = true
 
 [[files]]
@@ -807,8 +891,18 @@ hash = "794575492ef1688e59d36e4ebd1c82007816641337467943beb10255e7d21c51"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "555c2ed7500d7deb9f0dbfbc6a597bfa76ae2a22ccdbe7ab3632cde4278169b4"
+metafile = true
+
+[[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "6d7c5048a2c500d8c6198aaf1f9f0673f7a8621763b2704d0b3e7563fe25768b"
+metafile = true
+
+[[files]]
+file = "mods/starlight-forge.pw.toml"
+hash = "84b4303c211a5837819e5b88b8d131b659820c59dd8136fb8a69859c29922345"
 metafile = true
 
 [[files]]
@@ -839,11 +933,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "354bbfa82fb4018eb6d6d4b9c5a4846161dcd073e85010c936d3d96e454ece5c"
-metafile = true
-
-[[files]]
-file = "mods/the-one-who-watches.pw.toml"
-hash = "b2181c358b08ea433531f31ed9e58b696cf5f6bf33403aec55d03cea0bbc189a"
 metafile = true
 
 [[files]]
@@ -975,6 +1064,10 @@ metafile = true
 file = "mods/yungs-better-mineshafts-forge.pw.toml"
 hash = "81f1a11c12b5bd89a47a836a26e02ec0bdc5b92e8f5208e67a3327c12dcbb357"
 metafile = true
+
+[[files]]
+file = "pack.png"
+hash = "75fbd5f803f02c721b01978a497101a54745aedfa92b878e7de76501c2c111f8"
 
 [[files]]
 file = "resourcepacks/agamyst-re-cherry.pw.toml"

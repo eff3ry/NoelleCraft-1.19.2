@@ -1,0 +1,13 @@
+name = "ForgetMeChunk (Forge)"
+filename = "forgetmechunk-(forge)-mc1.19.2-0.0.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "0462d1afa1bd04f3e8b825d69e86632eb7f46320"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4041479
+project-id = 632973
