@@ -32,6 +32,7 @@ jobs:
 
       # Rename the folder with the commit ID
       - name: Rename folder with commit ID
+        shell: bash
         run: |
           VERSION=$(basename *.zip | sed 's/.*-\(.*\)\.zip/\1/')
           mv extracted_pack NoelleCraft-1.19.2-${VERSION}-${{ steps.get_commit.outputs.commit_id }}
