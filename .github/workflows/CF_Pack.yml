@@ -22,7 +22,9 @@ jobs:
       - name: Extract Version Number
         shell: bash
         run: |
-          VERSION=${basename *.zip | cut -d '-' -f 2%-*}  # Extract second field (version)
+          filename=$(basename *.zip)
+          VERSION=${filename%-*}  # Extract second field (version)
+          VERSION=$(echo "$VERSION" | cut -d '-' -f 2)  # Extract second field after removing extension
           echo "VERSION=$VERSION"  # Print for debugging
 
       # Unzip the generated CurseForge pack
