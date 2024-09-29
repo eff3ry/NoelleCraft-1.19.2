@@ -1,38 +1,47 @@
-name: Build and Upload Modpack
+name: CF_Pack
 
 on:
   push:
-    branches:
-      - main
-      - workflow-testing
+    branches: [ "main", "workflow-testing" ]
+  pull_request:
+    branches: [ "main", "workflow-testing" ]
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: windows-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      - name: Set up JDK
-        uses: actions/setup-java@v1
-        with:
-          java-version: '11'
+      # Runs the packwiz command to export the CurseForge pack
+      - name: Export pack as CurseForge pack
+        run: ./packwiz.exe cf export
 
-      - name: Extract modpack
+      # Unzip the generated CurseForge pack
+      - name: Unzip CurseForge pack
         run: |
           mkdir extracted_pack
-          Expand-Archive -Path "Noelle Pack 1.19.2-1.0.7.zip" -DestinationPath extracted_pack
-
+          unzip *.zip -d extracted_pack
+          rm *.zip
+      
+      # Get the commit ID and save it to an environment file
       - name: Get commit ID
+        id: get_commit
         run: echo "commit_id=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
-      - name: Rename extracted directory
+      # Rename the folder with the commit ID
+      - name: Rename folder with commit ID
+        shell: bash
         run: |
-          $newDirName = "NoelleCraft-1.19.2_$env:commit_id"
-          Rename-Item -Path "extracted_pack" -NewName $newDirName
+          VERSION=$(basename *.zip | sed 's/.*-\(.*\)\.zip/\1/')
+          mv extracted_pack NoelleCraft-1.19.2-${VERSION}-${commit_id}
+      # List the contents of the directory for debugging using PowerShell
+      - name: Debug - List files
+        run: Get-ChildItem -Recurse
 
-      - name: Upload modpack
-        uses: actions/upload-artifact@v4
+      # Upload the folder as an artifact
+      - uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.get_commit_id.outputs.commit_id }}_modpack
-          path: $newDirName
+          name: NoelleCraft-1.19.2-${VERSION}-${commit_id}
+          path: NoelleCraft-1.19.2-${VERSION}-${commit_id}
