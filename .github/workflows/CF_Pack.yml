@@ -2,9 +2,9 @@ name: CF_Pack
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "workflow-testing" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "workflow-testing" ]
   workflow_dispatch:
 
 jobs:
