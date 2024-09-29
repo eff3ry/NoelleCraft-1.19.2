@@ -32,7 +32,7 @@ jobs:
           Rename-Item -Path "extracted_pack" -NewName $newDirName
 
       - name: Upload modpack
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.get_commit_id.outputs.commit_id }}_modpack
           path: $newDirName
