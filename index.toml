@@ -21,6 +21,11 @@ file = "config/rightclickharvest.toml"
 hash = "38a3aba955ce3cd10a0a98b275a6dae714ce9a157947b7d3edb0f0900e5817c4"
 
 [[files]]
+file = "mods/absent-by-design.pw.toml"
+hash = "607f59c6a965d6f80bef23be9fcd28b9bd2a5b9fb2f037c27b91b35692e1811a"
+metafile = true
+
+[[files]]
 file = "mods/aether-delight.pw.toml"
 hash = "9ca0a993967d24ad90f24d203d38ea5333cd9ae8989f34820afa889c749615fd"
 metafile = true
@@ -141,6 +146,11 @@ hash = "8b6d43a047ade5b9339fa4a6dceca63bddd1f9de3eaf61ae3d16cfdcf7de79db"
 metafile = true
 
 [[files]]
+file = "mods/building-wands.pw.toml"
+hash = "1f5ecf6b800abe4b6beb0d885437e6e38cdbeb04a831357a4522c10aabd1cf1a"
+metafile = true
+
+[[files]]
 file = "mods/butchercraft.pw.toml"
 hash = "6e5095f7eecde96775b3e9f07799445e00acfaca1bbf5a0ad7f56289646987a4"
 metafile = true
@@ -246,8 +256,18 @@ hash = "aac08d8b0d042ebde4467a37047ecb21a6fd8d457b66995d4059ddeafaf4554e"
 metafile = true
 
 [[files]]
+file = "mods/create-deco.pw.toml"
+hash = "b0bb61105e0ac0c763edfa41ea5b0406f157bc17e421af1bf8b2cbb49325ced6"
+metafile = true
+
+[[files]]
 file = "mods/create-ore-excavation.pw.toml"
 hash = "8b14538177e132056111b1d6cf1692e440b3a3774c66f8dc4d9615658c94689e"
+metafile = true
+
+[[files]]
+file = "mods/create-railways-navigator.pw.toml"
+hash = "820b0fbc20d2e7b08f46758719e39fd35ea7fdc844a85fd4c59bfb156732002e"
 metafile = true
 
 [[files]]
@@ -436,6 +456,16 @@ hash = "a21c0153a7d21620095e7565fcc5d4b34866b6a9f9b8ed7fa024b2a27138d15f"
 metafile = true
 
 [[files]]
+file = "mods/friends-and-foes-forge.pw.toml"
+hash = "ad41a4f99f8cf07e845fe954f4a244a690bd97d4b4df67b61598dd0b83b92aa3"
+metafile = true
+
+[[files]]
+file = "mods/ftb-backups-2.pw.toml"
+hash = "caa049095bd56333c793b47d4cd47f10891630a26151caf72a91f983e1ef0c33"
+metafile = true
+
+[[files]]
 file = "mods/ftb-essentials.pw.toml"
 hash = "adfb1f8e1b8a358f69a750045fe4e21180b3350d48dc07295d80502265fb68c3"
 metafile = true
@@ -513,11 +543,6 @@ metafile = true
 [[files]]
 file = "mods/just-zoom.pw.toml"
 hash = "c5fde73338c062d4105a1434039a3dcc350c1a87d1f8c8e9cb36abb277ba4be5"
-metafile = true
-
-[[files]]
-file = "mods/justenoughbreeding.pw.toml"
-hash = "d1862a8686b9d3234ec1fff3611faed7fe95f0cc3ba3a649ccce8fe4c20bcf8a"
 metafile = true
 
 [[files]]
@@ -726,6 +751,11 @@ hash = "1336857e4281effc5b92dd8586bb7551cdc646a77bfd142a81f69648fd1cd131"
 metafile = true
 
 [[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "474dd6a81481186c4882544b6a7cfcae4cdad8b6d9098d2942e50c70a04a4100"
+metafile = true
+
+[[files]]
 file = "mods/packing-tape.pw.toml"
 hash = "12907b17a899120e421b428057bb8f2bc328451b9e635a34c9400bf69fb84f43"
 metafile = true
@@ -773,6 +803,11 @@ metafile = true
 [[files]]
 file = "mods/pocket-pets.pw.toml"
 hash = "b49c0494c1ba3fb9288051f5be333c8e229bf7f29833b1a13f7b589262ac316b"
+metafile = true
+
+[[files]]
+file = "mods/polylib.pw.toml"
+hash = "4dcf5007d4c75531c6077654ab28a445a39de00ae8c44d831401800c73fad3db"
 metafile = true
 
 [[files]]
@@ -903,6 +938,11 @@ metafile = true
 [[files]]
 file = "mods/starlight-forge.pw.toml"
 hash = "84b4303c211a5837819e5b88b8d131b659820c59dd8136fb8a69859c29922345"
+metafile = true
+
+[[files]]
+file = "mods/storage-drawers.pw.toml"
+hash = "282243cfcdb33175a733c16f56e1bcb155dfa0fce7b61824096909c2dc76bbf8"
 metafile = true
 
 [[files]]
@@ -1056,6 +1096,11 @@ hash = "c69ece121283b6c725244bacb035cf7deb5365499ce009227ab159e50f2d5cd2"
 metafile = true
 
 [[files]]
+file = "mods/xxl-packets.pw.toml"
+hash = "cdbf41250066aff53059a1283cf5a45781019f99a3b5a0d1e61bc8e0093421d1"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "8fe58cbf1d128af0e210ee74dd21883a6c35ac0023c9605ae9646a29c03efd8a"
 metafile = true
@@ -1093,3 +1138,7 @@ metafile = true
 file = "resourcepacks/spryzeens-falling-leaves.pw.toml"
 hash = "63873bc92704c940787860f8af74400cc77f736eebbbd56484890ae0dc606454"
 metafile = true
+
+[[files]]
+file = "server-icon.png"
+hash = "e8be910df99fd4497c770dd6d1eed94f421f3500563c848e9cf056bfa6177eb4"

@@ -1,12 +1,12 @@
 name = "Noellecraft 1.19.2"
 author = "3ffery, Nolliewee"
-version = "1.0.8"
+version = "1.0.9"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c10337be6a3a8d95e35e7c7a604c80b8c62f96dad1216d73ec072bc7393ab666"
+hash = "55d9177aeeba85d03dfffc63a03a9202d12ea17db4b6d151fc94fc730a2d7188"
 
 [versions]
 forge = "43.4.2"
