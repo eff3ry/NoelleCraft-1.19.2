@@ -5,7 +5,7 @@ A custom Minecraft modpack for version 1.19.2. This pack is designed for casual 
 ## 🚀 Installation Guide
 
 1. **Download the Modpack**  
-   Go to the [Actions tab](../../actions) of this repository, select the latest successful build, and download the `.zip` file from the artifacts section 📦.  
+   Go to the [Actions tab](../../actions?query=branch%3Amain) of this repository, select the latest successful build, and download the `.zip` file from the artifacts section 📦.  
    This `.zip` contains ANOTHER `.zip` which is the modpack formatted for CurseForge.
 
 2. **CurseForge Install**  
