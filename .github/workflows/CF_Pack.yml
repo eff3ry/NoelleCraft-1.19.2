@@ -26,14 +26,12 @@ jobs:
           VERSION=${filename%-*}  # Extract second field (version)
           VERSION=$(echo "$VERSION" | cut -d '-' -f 2)  # Extract second field after removing extension
           echo "VERSION=$VERSION"  # Print for debugging
-
       # Unzip the generated CurseForge pack
       - name: Unzip CurseForge pack
         shell: bash
         run: |
           mkdir extracted_pack
           unzip *.zip
-
       # Get the commit ID and save it to an environment file
       - name: Get commit ID
         shell: bash
@@ -44,16 +42,15 @@ jobs:
       - name: Rename folder with version and commit ID
         shell: bash
         run: |
-          mv NoelleCraft-1.19.2-${VERSION} "NoelleCraft-1.19.2-${VERSION}-${{ env.commit_id }}"
-
+          mv "extracted_pack/NoelleCraft-1.19.2-${{ env.VERSION }}" "NoelleCraft-1.19.2-${{ env.VERSION }}-${env commit_id}"
       # Debugging to check values (optional)
-      - name: Rename folder with version and commit ID
+      - name: Debugging - Check Variables
         shell: bash
         run: |
-          mv "extracted_pack/NoelleCraft-1.19.2-${{ env.VERSION }}" "NoelleCraft-1.19.2-${{ env.VERSION }}-${env commit_id}"
-
+          echo "VERSION: $VERSION"
+          echo "commit_id: ${{ env.commit_id }}"
       # Upload the folder as an artifact
       - uses: actions/upload-artifact@v4
         with:
-          name: "NoelleCraft-1.19.2-${VERSION}-${{ env.commit_id }}"
-          path: "NoelleCraft-1.19.2-${VERSION}-${{ env.commit_id }}"
+          name: "NoelleCraft-1.19.2-${{ env.VERSION }}-${{ env.commit_id }}"
+          path: "NoelleCraft-1.19.2-${{ env.VERSION }}-${{ env.commit_id }}"
