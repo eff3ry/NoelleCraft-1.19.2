@@ -20,6 +20,7 @@ jobs:
 
       # Extract the version number from the ZIP file name (improved)
       - name: Extract Version Number
+        shell: bash
         run: |
           VERSION=$(basename *.zip | cut -d '-' -f 2)  # Extract second field (version)
           echo "VERSION=$VERSION"  # Print for debugging
@@ -33,16 +34,19 @@ jobs:
 
       # Get the commit ID and save it to an environment file
       - name: Get commit ID
+        shell: bash
         id: get_commit
         run: echo "commit_id=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
       # Rename the folder with version and commit ID
       - name: Rename folder with version and commit ID
+        shell: bash
         run: |
           mv "NoelleCraft-1.19.2-${VERSION}" "NoelleCraft-1.19.2-${VERSION}-${{ env.commit_id }}"
 
       # Debugging to check values (optional)
       - name: Debugging - Check Variables
+        shell: bash
         run: |
           echo "VERSION: $VERSION"
           echo "commit_id: ${{ env.commit_id }}"
