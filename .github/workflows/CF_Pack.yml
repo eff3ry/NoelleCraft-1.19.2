@@ -35,7 +35,14 @@ jobs:
         shell: bash
         run: |
           VERSION=$(basename *.zip | sed 's/.*-\(.*\)\.zip/\1/')
-          mv extracted_pack NoelleCraft-1.19.2-${VERSION}-${commit_id}
+          mv extracted_pack "NoelleCraft-1.19.2-${VERSION}-${{ env.commit_id }}"
+
+      # Debugging to check values
+      - name: Debugging - Check Variables
+        run: |
+          echo "VERSION: $VERSION"
+          echo "commit_id: ${{ env.commit_id }}"
+          
       # List the contents of the directory for debugging using PowerShell
       - name: Debug - List files
         run: Get-ChildItem -Recurse
@@ -43,5 +50,5 @@ jobs:
       # Upload the folder as an artifact
       - uses: actions/upload-artifact@v4
         with:
-          name: NoelleCraft-1.19.2-${VERSION}-${commit_id}
-          path: NoelleCraft-1.19.2-${VERSION}-${commit_id}
+          name: NoelleCraft-1.19.2-${{ env.VERSION }}-${{ env.commit_id }}
+          path: "NoelleCraft-1.19.2-${{ env.VERSION }}-${{ env.commit_id }}"
