@@ -23,7 +23,7 @@ jobs:
         shell: bash
         run: |
           mkdir extracted_pack
-          unzip *.zip -k -d extracted_pack 
+          unzip *.zip
 
       # Get the commit ID and save it to an environment file
       - name: Get commit ID
@@ -48,7 +48,7 @@ jobs:
       # Rename the folder with version and commit ID
       - name: Rename folder with version and commit ID
         run: |
-          mv extracted_pack "NoelleCraft-1.19.2-${VERSION}-${{ env.commit_id }}"
+          mv "NoelleCraft-1.19.2-${VERSION}" "NoelleCraft-1.19.2-${VERSION}-${{ env.commit_id }}"
 
       # Debugging to check values (optional)
       - name: Debugging - Check Variables
