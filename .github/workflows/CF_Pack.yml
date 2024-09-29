@@ -24,31 +24,41 @@ jobs:
           mkdir extracted_pack
           unzip *.zip -d extracted_pack
           rm *.zip
-      
+
       # Get the commit ID and save it to an environment file
       - name: Get commit ID
         id: get_commit
         run: echo "commit_id=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
-      # Rename the folder with the commit ID
-      - name: Rename folder with commit ID
-        shell: bash
+      # Check for ZIP file before proceeding
+      - name: Check for ZIP file
         run: |
-          VERSION=$(basename *.zip | sed 's/.*-\(.*\)\.zip/\1/')
+          if ls *.zip 1> /dev/null 2>&1; then
+            echo "ZIP file found"
+          else
+            echo "No ZIP file found"
+            exit 1
+          fi
+
+      # Extract the version number from the ZIP file name (improved)
+      - name: Extract Version Number
+        run: |
+          VERSION=$(basename *.zip | cut -d '-' -f 2)  # Extract second field (version)
+          echo "VERSION=$VERSION"  # Print for debugging
+
+      # Rename the folder with version and commit ID
+      - name: Rename folder with version and commit ID
+        run: |
           mv extracted_pack "NoelleCraft-1.19.2-${VERSION}-${{ env.commit_id }}"
 
-      # Debugging to check values
+      # Debugging to check values (optional)
       - name: Debugging - Check Variables
         run: |
           echo "VERSION: $VERSION"
           echo "commit_id: ${{ env.commit_id }}"
-          
-      # List the contents of the directory for debugging using PowerShell
-      - name: Debug - List files
-        run: Get-ChildItem -Recurse
 
       # Upload the folder as an artifact
       - uses: actions/upload-artifact@v4
         with:
-          name: NoelleCraft-1.19.2-${{ env.VERSION }}-${{ env.commit_id }}
-          path: "NoelleCraft-1.19.2-${{ env.VERSION }}-${{ env.commit_id }}"
+          name: "NoelleCraft-1.19.2-${VERSION}-${{ env.commit_id }}"
+          path: "NoelleCraft-1.19.2-${VERSION}-${{ env.commit_id }}"
