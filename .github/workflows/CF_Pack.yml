@@ -22,7 +22,7 @@ jobs:
       - name: Unzip CurseForge pack
         run: |
           mkdir extracted_pack
-          unzip *.zip -k -d extracted_pack
+          unzip -k *.zip -d extracted_pack
 
       # Get the commit ID and save it to an environment file
       - name: Get commit ID
