@@ -30,15 +30,14 @@ jobs:
         id: get_commit
         run: echo "commit_id=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
-      # Check for ZIP file before proceeding
       - name: Check for ZIP file
         run: |
-          if ls *.zip 1> /dev/null 2>&1; then
+          if (ls *.zip | Out-Null) {
             echo "ZIP file found"
-          else
+          } else {
             echo "No ZIP file found"
             exit 1
-          fi
+          }
 
       # Extract the version number from the ZIP file name (improved)
       - name: Extract Version Number
