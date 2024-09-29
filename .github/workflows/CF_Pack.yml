@@ -37,9 +37,9 @@ jobs:
           VERSION=$(basename *.zip | sed 's/.*-\(.*\)\.zip/\1/')
           mv extracted_pack NoelleCraft-1.19.2-${VERSION}-${commit_id}
 
-      # List the contents of the directory for debugging
+      # List the contents of the directory for debugging using PowerShell
       - name: Debug - List files
-        run: ls -la
+        run: Get-ChildItem -Recurse
 
       # Upload the folder as an artifact
       - uses: actions/upload-artifact@v4
