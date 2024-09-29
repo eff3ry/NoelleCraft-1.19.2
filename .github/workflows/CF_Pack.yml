@@ -47,11 +47,10 @@ jobs:
           mv NoelleCraft-1.19.2-${VERSION} "NoelleCraft-1.19.2-${VERSION}-${{ env.commit_id }}"
 
       # Debugging to check values (optional)
-      - name: Debugging - Check Variables
+      - name: Rename folder with version and commit ID
         shell: bash
         run: |
-          echo "VERSION: $VERSION"
-          echo "commit_id: ${{ env.commit_id }}"
+          mv "extracted_pack/NoelleCraft-1.19.2-${{ env.VERSION }}" "NoelleCraft-1.19.2-${{ env.VERSION }}-${env commit_id}"
 
       # Upload the folder as an artifact
       - uses: actions/upload-artifact@v4
