@@ -18,6 +18,12 @@ jobs:
       - name: Export pack as CurseForge pack
         run: ./packwiz.exe cf export
 
+      # Extract the version number from the ZIP file name (improved)
+      - name: Extract Version Number
+        run: |
+          VERSION=$(basename *.zip | cut -d '-' -f 2)  # Extract second field (version)
+          echo "VERSION=$VERSION"  # Print for debugging
+
       # Unzip the generated CurseForge pack
       - name: Unzip CurseForge pack
         shell: bash
@@ -29,21 +35,6 @@ jobs:
       - name: Get commit ID
         id: get_commit
         run: echo "commit_id=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
-
-      - name: Check for ZIP file
-        run: |
-          if (ls *.zip | Out-Null) {
-            echo "ZIP file found"
-          } else {
-            echo "No ZIP file found"
-            exit 1
-          }
-
-      # Extract the version number from the ZIP file name (improved)
-      - name: Extract Version Number
-        run: |
-          VERSION=$(basename *.zip | cut -d '-' -f 2)  # Extract second field (version)
-          echo "VERSION=$VERSION"  # Print for debugging
 
       # Rename the folder with version and commit ID
       - name: Rename folder with version and commit ID
