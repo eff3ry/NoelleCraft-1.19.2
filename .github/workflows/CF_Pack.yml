@@ -23,7 +23,6 @@ jobs:
         run: |
           mkdir extracted_pack
           unzip *.zip -d extracted_pack
-          rm *.zip
 
       # Get the commit ID and save it to an environment file
       - name: Get commit ID
